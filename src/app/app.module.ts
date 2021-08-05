@@ -8,6 +8,7 @@ import { GameItemComponent } from './game-item/game-item.component';
 import { ButtonComponent } from './button/button.component';
 import { DetailComponent } from './detail/detail.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
