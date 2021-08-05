@@ -1,0 +1,37 @@
+$backgroundColor: #030616;
+
+/* FONT FAMILY */
+$textTitleFamily: 'Roboto', sans-serif;
+$textFamily: 'Montserrat', sans-serif;
+
+/* FONT COLOR */
+$textTitleColor: white;
+$textColor: rgb(158, 156, 156);
+
+//Estilos Fijos 
+.capitalize{
+  text-transform: capitalize;
+}
+.uppercase{
+  text-transform: uppercase;
+}
+.btnType{
+  background-color: #2529d8;
+  width: 139px;
+  height: 43px;
+  padding: 14px, 20px;
+  color: $textTitleColor;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+.btnType{
+  background-color: #2529d8;
+  width: 100px;
+  height: 43px;
+  padding: 14px, 20px;
+  color: $textTitleColor;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}

@@ -1,0 +1,23 @@
+@import '../../assets/variables.scss';
+.main{
+  width: 100%;
+  background-color: $backgroundColor;
+  &__title{
+    color: $textTitleColor;
+    font-family: $textFamily;
+    font-size: 13px;
+    margin: auto auto 30px 180px;
+    padding-top: 5px;
+  }
+  &__list{
+    margin-left: 180px;
+    display: grid;
+    grid-template-columns: repeat(4, 360px);
+    column-gap: 40px;
+    row-gap: 70px;
+    padding-bottom: 160px;
+    &--item{
+      list-style-type: none;
+    }
+  }
+}

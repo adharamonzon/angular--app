@@ -1,0 +1,6 @@
+<main class="main">
+  <h3 class="main__title uppercase">BestSellers</h3>
+  <ul class="main__list">
+      <app-game-item *ngFor='let game of games' [game]='game'></app-game-item>
+  </ul>
+</main>

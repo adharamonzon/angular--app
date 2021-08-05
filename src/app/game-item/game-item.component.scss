@@ -1,0 +1,20 @@
+@import '../../assets/variables.scss';
+.gameCard{
+  &__infoContainer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    &--text{
+      &__title{
+        color: $textTitleColor;
+        font-family: $textFamily;
+        font-size: 20px;
+      }
+      &__price{
+        color: $textColor;
+        font-family: $textFamily;
+        font-size: 15px;
+      }
+    }
+  }
+}
