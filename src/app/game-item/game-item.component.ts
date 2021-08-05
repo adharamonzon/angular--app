@@ -11,7 +11,12 @@ import { GAMES } from '../data/data-games';
 export class GameItemComponent implements OnInit {
   games =  GAMES;
   @Input() game!: Game;
+  selectedGame?:Game;
   constructor() { }
+
+  onSelect(game: Game) : void {
+    this.selectedGame = game;
+  }
 
   ngOnInit(): void {
   }

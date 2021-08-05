@@ -1,5 +1,8 @@
 @import '../../assets/variables.scss';
 .gameCard{
+  &__link{
+    text-decoration: none;
+  }
   &__infoContainer{
     display: flex;
     justify-content: space-between;

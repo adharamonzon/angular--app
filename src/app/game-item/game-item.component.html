@@ -1,12 +1,14 @@
 <li class="gameCard">
-  <div class="gameCard__imgContainer">
-    <img src={{game.image}} alt='Foto {{game.title}}'>
-  </div>
-  <div class="gameCard__infoContainer">
-    <div class="gameCard__infoContainer--text">
-      <h1 class="gameCard__infoContainer--text__title">{{game.title}}</h1>
-      <h4 class="gameCard__infoContainer--text__price">{{game.price}} USD</h4>
+  <a  class="gameCard__link" routerLink="/gameDetail/{{game.id}}">
+    <div class="gameCard__imgContainer">
+      <img src={{game.image}} alt='Foto {{game.title}}'>
     </div>
-    <app-button></app-button>
-  </div>
+    <div class="gameCard__infoContainer">
+      <div class="gameCard__infoContainer--text">
+        <h1 class="gameCard__infoContainer--text__title">{{game.title}}</h1>
+        <h4 class="gameCard__infoContainer--text__price">{{game.price}} USD</h4>
+      </div>
+      <app-button></app-button>
+    </div>
+  </a>
 </li>
