@@ -1,7 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 
 import { Game } from '../data/game';
-import { GAMES } from '../data/data-games';
 
 @Component({
   selector: 'app-game-item',
@@ -9,14 +8,9 @@ import { GAMES } from '../data/data-games';
   styleUrls: ['./game-item.component.scss']
 })
 export class GameItemComponent implements OnInit {
-  games =  GAMES;
-  @Input() game!: Game;
-  selectedGame?:Game;
-  constructor() { }
 
-  onSelect(game: Game) : void {
-    this.selectedGame = game;
-  }
+  @Input() game!: (Game);
+  constructor() { }
 
   ngOnInit(): void {
   }

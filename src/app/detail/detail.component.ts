@@ -11,23 +11,21 @@ import { GameService } from '../game.service';
   styleUrls: ['./detail.component.scss']
 })
 export class DetailComponent implements OnInit {
-  /*game: Game[] = [];
-  game:Game; */ /* siemmpre problemas al declara game o games  */
-  @Input() game?: Game[];
+
+  @Input() game?: Game[]; 
   
   constructor(
-    private route:ActivatedRoute,
+    private route:ActivatedRoute,/* 
     private gameService: GameService,
-    private location: Location
+    private location: Location  */
   ) { }
-
-  getGame(): void{
-  let id:number = this.route.snapshot.params.id;
-    this.gameService.getGame(id)
-      .subscribe(game => this.game = game)
-  }
-
+ 
   ngOnInit(): void {
     this.getGame();
   }
-}/* porque si pongo una exclamacion en '@Input() game!' funciona? */
+
+  getGame() : void {
+    const id = Number(console.log(this.route.snapshot.params.id));
+
+  }
+}
