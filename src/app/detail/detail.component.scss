@@ -5,9 +5,8 @@
   height: 100%;
   background-color: $backgroundColor;
   background-image: url('../../assets/images/god-of-war-detailBG.png');
-  /* background-position: center; */
+  padding-bottom: 1px;
   background-repeat: no-repeat;
-  /* overflow-x: hidden; */
   &__back{
     position: absolute;
     top: 42px;
@@ -69,6 +68,7 @@
       height: 66px;
       border: none;
       border-radius: 4px;
+      font-size: 13px;
       color:white;
       cursor: pointer;
     }
