@@ -1,9 +1,10 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { Game } from '../data/game';
+import { GAMES } from '../data/data-games';
 //Routing
 import { ActivatedRoute } from '@angular/router';
 import { Location } from '@angular/common';
-import { GameService } from '../game.service';
+/* import { GameService } from '../game.service'; */
 
 @Component({
   selector: 'app-detail',
@@ -12,8 +13,10 @@ import { GameService } from '../game.service';
 })
 export class DetailComponent implements OnInit {
 
-  @Input() game?: Game[]; 
-  
+  @Input() game?: Game[];
+  games = GAMES;
+  public myGame!: any; //si defino el objeto no funciona
+
   constructor(
     private route:ActivatedRoute,/* 
     private gameService: GameService,  */
@@ -21,11 +24,15 @@ export class DetailComponent implements OnInit {
   ) { }
  
   ngOnInit(): void {
-    this.getGame();
-  }
-
-  getGame() : void {
-    const id = Number(console.log(this.route.snapshot.params.id));
+    let id: number = parseInt(this.route.snapshot.params.id)
+    console.log(id, this.games);
+    
+    for (const game of this.games) {
+      if(game.id === id){
+        this.myGame = game
+      }
+    }
+    console.log(this.myGame);
   }
   goBack() : void {
     this.location.back()
