@@ -10,7 +10,7 @@ import { Game } from '../data/game';
 })
 export class GameItemComponent implements OnInit {
 
-  @Input() game!: (Game);
+  @Input() game!: (Game); //a traves del @Input recibe la informacion del componente madre
   constructor(private router : Router) { }
 
   ngOnInit(): void {
