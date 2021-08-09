@@ -16,8 +16,8 @@ export class DetailComponent implements OnInit {
   
   constructor(
     private route:ActivatedRoute,/* 
-    private gameService: GameService,
-    private location: Location  */
+    private gameService: GameService,  */
+    private location: Location
   ) { }
  
   ngOnInit(): void {
@@ -26,6 +26,8 @@ export class DetailComponent implements OnInit {
 
   getGame() : void {
     const id = Number(console.log(this.route.snapshot.params.id));
-
+  }
+  goBack() : void {
+    this.location.back()
   }
 }
