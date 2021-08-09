@@ -1,4 +1,4 @@
-<section class="detail">
+<section *ngIf="game" class="detail">
   <a class="detail__back" href='./' title='go back'  (click)="goBack()">
     <img src="../../assets/icons/back.png" alt='Foto esta'>
   </a>
@@ -6,13 +6,13 @@
     <i class="fas fa-medal detail__tag--icon"></i>
     <small class="uppercase">New Release</small>
   </div>
-  <h1 class="detail__title">{{myGame.title}}</h1>
+  <h1 class="detail__title">{{game.title}}</h1>
   <div class="detail__priceContainer">
-    <p class="detail__priceContainer--text">{{myGame.price}} USD</p>
+    <p class="detail__priceContainer--text">{{game.price}} USD</p>
     <button class="detail__priceContainer--btn uppercase">Install Game</button>
   </div>
   <div class="detail__infoContainer">
-    <img class="detail__infoContainer--img" src={{myGame.image}} alt='god of war photo' />
-    <p class="detail__infoContainer--text">{{myGame.description}}</p>
+    <img class="detail__infoContainer--img" src={{game.image}} alt='god of war photo' />
+    <p class="detail__infoContainer--text">{{game.description}}</p>
   </div>
 </section>

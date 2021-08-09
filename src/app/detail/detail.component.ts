@@ -13,9 +13,9 @@ import { Location } from '@angular/common';
 })
 export class DetailComponent implements OnInit {
 
-  @Input() game?: Game[];
+  public game?: Game;
   games = GAMES;
-  public myGame!: any; //si defino el objeto no funciona
+  
 
   constructor(
     private route:ActivatedRoute,/* 
@@ -29,10 +29,10 @@ export class DetailComponent implements OnInit {
     
     for (const game of this.games) {
       if(game.id === id){
-        this.myGame = game
+        this.game = game
       }
     }
-    console.log(this.myGame);
+    console.log(this.game);
   }
   goBack() : void {
     this.location.back()
