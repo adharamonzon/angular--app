@@ -1,7 +1,7 @@
-import { Component, OnInit, Input } from '@angular/core';
-import { Router } from '@angular/router';
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 
 import { Game } from '../data/game';
+import { GameService } from '../game.service';
 
 @Component({
   selector: 'app-game-item',
@@ -10,12 +10,11 @@ import { Game } from '../data/game';
 })
 export class GameItemComponent implements OnInit {
 
-  @Input() game!: (Game); //a traves del @Input recibe la informacion del componente madre
-  constructor(private router : Router) { }
+  @Input() game!: (Game); 
+
+  constructor() { }
 
   ngOnInit(): void {
   }
-  onSelect(game: Game){
-    this.router.navigate(['/gameDetail',game.id, game])
-  }
+  
 }
