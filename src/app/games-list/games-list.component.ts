@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 import { Game } from '../data/game';
 //import { GAMES } from '../data/data-games'; //necesario si no hay servicio
 //servicio: para acceder al data 
-import { GameService } from '../game.service';
+import { GameService } from '../games.service';
 
 @Component({
   selector: 'app-games-list',
