@@ -4,7 +4,7 @@ import { GAMES } from '../data/data-games';
 //Routing
 import { ActivatedRoute } from '@angular/router';
 import { Location } from '@angular/common';
-import { GetGameService } from '../services/get-game.service';
+import { GamesService } from '../services/games.service';
 
 @Component({
   selector: 'app-detail',
@@ -13,28 +13,17 @@ import { GetGameService } from '../services/get-game.service';
 })
 export class DetailComponent implements OnInit {
 
-  public game?: Game;
+  public game?: Game | null;
   //games = GAMES;
   
   constructor(
-    //private route:ActivatedRoute, //usar la ruta para encontrar el id clickado
-    private getGameService:GetGameService,
+    private route:ActivatedRoute, //usar la ruta para encontrar el id clickado
+    private gamesService:GamesService,
     private location: Location
   ) { }
  
   ngOnInit(): void {
-    //SIN UTILIZAR SERVCIO PARA PINTAR EL DETALLE
-    /* let id: number = parseInt(this.route.snapshot.params.id)
-    for (const game of this.games) {
-      if(game.id === id){
-        this.game = game
-      }
-    } */
-    this.getGameService.trigerGame.subscribe(data => {
-      this.game = data.game
-      console.log(this.game);
-      
-    })
+   this.game = this.gamesService.getGameById(parseInt(this.route.snapshot.params.id))
   }
     
   goBack() : void {

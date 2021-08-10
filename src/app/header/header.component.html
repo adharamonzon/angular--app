@@ -1,6 +1,9 @@
 <ngb-carousel>
   <ng-template *ngFor="let game of games" ngbSlide>
-    <div class="picsum-img-wrapper">
+    <div class="picsum-img-wrapper header">
+      <small class="header__title uppercase">Awarded and Recomended</small>
+      <h1>{{game.title}}</h1>
+      <p>{{game.description}}</p>
       <img src={{game.imgDetailBG}} alt="Random first slide"/>
     </div>
   </ng-template>

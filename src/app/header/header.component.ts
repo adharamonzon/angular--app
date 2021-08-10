@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { NgbCarouselConfig } from '@ng-bootstrap/ng-bootstrap';
 import { Game } from '../data/game';
-import { TopGamesService } from '../services/top-games.service';
 
 @Component({
   selector: 'app-header',
@@ -13,14 +12,12 @@ export class HeaderComponent implements OnInit {
   
   constructor(
     private config:NgbCarouselConfig,
-    private topGameService:TopGamesService,
     ) { }
 
   ngOnInit(): void {
     this.getGames();
   }
   getGames(): void { 
-    this.games = this.topGameService.getTopGames()
   }
 
 }

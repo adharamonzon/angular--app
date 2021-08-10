@@ -1,7 +1,6 @@
-import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 import { Game } from '../data/game';
-import { GetGameService } from '../services/get-game.service';
 
 @Component({
   selector: 'app-game-item',
@@ -12,15 +11,8 @@ export class GameItemComponent implements OnInit {
 
   @Input() game!: (Game); 
 
-  constructor(private getGameService:GetGameService) { }
+  constructor() { }
 
-  selectedGame(){
-    console.log(this.game);
-    
-    this.getGameService.trigerGame.emit({
-      game:this.game
-    })
-  }
 
   ngOnInit(): void {
   }
