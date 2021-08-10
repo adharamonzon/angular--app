@@ -5,156 +5,202 @@ export const GAMES: Game[] = [
     "id": 1,
     "tag": "new release",
     "title": "Horizon Zero Dawn ™",
+    "subtitle": "League of Legends is a fast-paced, competitive online game that blends the speed and intensity of an RTS with RPG elements.",
     "price": "49,95",
     "image": "../assets/images/horizon.png",
     "description": "Kratos, que ha dejado atrás el mundo de los dioses, deberá adaptarse a tierras que no le son familiares, afrontar peligros inesperados y aprovechar una segunda oportunidad de ejercer como padre. Junto a su hijo Atreus se aventurará en lo más profundo e inclemente de las tierras de Midgard y luchará por culminar una búsqueda hondamente personal.\n• Viaja a un mundo oscuro y elemental de temibles criaturas directamente extraído de la mitología nórdica.\n• Vence a tus enemigos en encarnizados combates cuerpo a cuerpo donde el pensamiento táctico y la precisión letal te darán la ventaja.\n• Descubre una historia apasionante y emocional en la que Kratos se verá obligado a controlar la ira que tanto lo ha caracterizado.",
     "imgDetailBG": "../assets/images/god-of-war-detailBG.png",
-    "imgDetail": "../assets/images/horizon.png"
+    "imgDetail": "../assets/images/horizon.png",
+    "top": true,
+    "topBG": "../assets/images/background.png"
   },
   {
     "id": 2,
     "tag": "new release",
     "title": "God of War ™",
+    "subtitle": "League of Legends is a fast-paced, competitive online game that blends the speed and intensity of an RTS with RPG elements.",
     "price": "149,95",
     "image": "../assets/images/god-of-war.png",
     "description": "Kratos, que ha dejado atrás el mundo de los dioses, deberá adaptarse a tierras que no le son familiares, afrontar peligros inesperados y aprovechar una segunda oportunidad de ejercer como padre. Junto a su hijo Atreus se aventurará en lo más profundo e inclemente de las tierras de Midgard y luchará por culminar una búsqueda hondamente personal. • Viaja a un mundo oscuro y elemental de temibles criaturas directamente extraído de la mitología nórdica. • Vence a tus enemigos en encarnizados combates cuerpo a cuerpo donde el pensamiento táctico y la precisión letal te darán la ventaja. • Descubre una historia apasionante y emocional en la que Kratos se verá obligado a controlar la ira que tanto lo ha caracterizado.",
     "imgDetailBG": "../assets/images/god-of-war-detailBG.png",
-    "imgDetail": "../assets/images/god-of-war-detail.png"
+    "imgDetail": "../assets/images/god-of-war-detail.png",
+    "top": false,
+    "topBG": "../assets/images/background.png"
   },
   {
     "id": 3,
     "tag": "new release",
     "title": "Red Dead Redemption",
+    "subtitle": "League of Legends is a fast-paced, competitive online game that blends the speed and intensity of an RTS with RPG elements.",
     "price": "189,95",
     "image": "../assets/images/red-dead-redemption.png",
     "description": "Kratos, que ha dejado atrás el mundo de los dioses, deberá adaptarse a tierras que no le son familiares, afrontar peligros inesperados y aprovechar una segunda oportunidad de ejercer como padre. Junto a su hijo Atreus se aventurará en lo más profundo e inclemente de las tierras de Midgard y luchará por culminar una búsqueda hondamente personal. • Viaja a un mundo oscuro y elemental de temibles criaturas directamente extraído de la mitología nórdica. • Vence a tus enemigos en encarnizados combates cuerpo a cuerpo donde el pensamiento táctico y la precisión letal te darán la ventaja. • Descubre una historia apasionante y emocional en la que Kratos se verá obligado a controlar la ira que tanto lo ha caracterizado.",
     "imgDetailBG": "../assets/images/god-of-war-detailBG.png",
-    "imgDetail": "../assets/images/red-dead-redemption.png"
+    "imgDetail": "../assets/images/red-dead-redemption.png",
+    "top": true,
+    "topBG": "../assets/images/background.png"
   },
   {
     "id": 4,
     "tag": "new release",
     "title": "The Witcher 3: Wild",
+    "subtitle": "League of Legends is a fast-paced, competitive online game that blends the speed and intensity of an RTS with RPG elements.",
     "price": "39,95",
     "image": "../assets/images/the-witcher-3.png",
     "description": "Kratos, que ha dejado atrás el mundo de los dioses, deberá adaptarse a tierras que no le son familiares, afrontar peligros inesperados y aprovechar una segunda oportunidad de ejercer como padre. Junto a su hijo Atreus se aventurará en lo más profundo e inclemente de las tierras de Midgard y luchará por culminar una búsqueda hondamente personal. • Viaja a un mundo oscuro y elemental de temibles criaturas directamente extraído de la mitología nórdica. • Vence a tus enemigos en encarnizados combates cuerpo a cuerpo donde el pensamiento táctico y la precisión letal te darán la ventaja. • Descubre una historia apasionante y emocional en la que Kratos se verá obligado a controlar la ira que tanto lo ha caracterizado.",
     "imgDetailBG": "../assets/images/god-of-war-detailBG.png",
-    "imgDetail": "../assets/images/the-witcher-3.png"
+    "imgDetail": "../assets/images/the-witcher-3.png",
+    "top": false,
+    "topBG": "../assets/images/background.png"
   },
   {
     "id": 5,
     "tag": "new release",
     "title": "Howarts Legacy",
+    "subtitle": "League of Legends is a fast-paced, competitive online game that blends the speed and intensity of an RTS with RPG elements.",
     "price": "49,95",
     "image": "../assets/images/howarts-legacy.png",
     "description": "Kratos, que ha dejado atrás el mundo de los dioses, deberá adaptarse a tierras que no le son familiares, afrontar peligros inesperados y aprovechar una segunda oportunidad de ejercer como padre. Junto a su hijo Atreus se aventurará en lo más profundo e inclemente de las tierras de Midgard y luchará por culminar una búsqueda hondamente personal. • Viaja a un mundo oscuro y elemental de temibles criaturas directamente extraído de la mitología nórdica. • Vence a tus enemigos en encarnizados combates cuerpo a cuerpo donde el pensamiento táctico y la precisión letal te darán la ventaja. • Descubre una historia apasionante y emocional en la que Kratos se verá obligado a controlar la ira que tanto lo ha caracterizado.",
     "imgDetailBG": "../assets/images/god-of-war-detailBG.png",
-    "imgDetail": "../assets/images/howarts-legacy.png"
+    "imgDetail": "../assets/images/howarts-legacy.png",
+    "top": false,
+    "topBG": "../assets/images/background.png"
   },
   {
     "id": 6,
     "tag": "new release",
     "title": "Final Fantasy XVI",
+    "subtitle": "League of Legends is a fast-paced, competitive online game that blends the speed and intensity of an RTS with RPG elements.",
     "price": "149,95",
     "image": "../assets/images/final-fantasy-xvi.png",
     "description": "Kratos, que ha dejado atrás el mundo de los dioses, deberá adaptarse a tierras que no le son familiares, afrontar peligros inesperados y aprovechar una segunda oportunidad de ejercer como padre. Junto a su hijo Atreus se aventurará en lo más profundo e inclemente de las tierras de Midgard y luchará por culminar una búsqueda hondamente personal. • Viaja a un mundo oscuro y elemental de temibles criaturas directamente extraído de la mitología nórdica. • Vence a tus enemigos en encarnizados combates cuerpo a cuerpo donde el pensamiento táctico y la precisión letal te darán la ventaja. • Descubre una historia apasionante y emocional en la que Kratos se verá obligado a controlar la ira que tanto lo ha caracterizado.",
     "imgDetailBG": "../assets/images/god-of-war-detailBG.png",
-    "imgDetail": "../assets/images/final-fantasy-xvi.png"
+    "imgDetail": "../assets/images/final-fantasy-xvi.png",
+    "top": true,
+    "topBG": "../assets/images/background.png"
   },
   {
     "id": 7,
     "tag": "new release",
     "title": "Kena, bridge of spirits",
+    "subtitle": "League of Legends is a fast-paced, competitive online game that blends the speed and intensity of an RTS with RPG elements.",
     "price": "189,95",
     "image": "../assets/images/kena-bridge-of-spirits.png",
     "description": "Kratos, que ha dejado atrás el mundo de los dioses, deberá adaptarse a tierras que no le son familiares, afrontar peligros inesperados y aprovechar una segunda oportunidad de ejercer como padre. Junto a su hijo Atreus se aventurará en lo más profundo e inclemente de las tierras de Midgard y luchará por culminar una búsqueda hondamente personal. • Viaja a un mundo oscuro y elemental de temibles criaturas directamente extraído de la mitología nórdica. • Vence a tus enemigos en encarnizados combates cuerpo a cuerpo donde el pensamiento táctico y la precisión letal te darán la ventaja. • Descubre una historia apasionante y emocional en la que Kratos se verá obligado a controlar la ira que tanto lo ha caracterizado.",
     "imgDetailBG": "../assets/images/god-of-war-detailBG.png",
-    "imgDetail": "../assets/images/kena-bridge-of-spirits.png"
+    "imgDetail": "../assets/images/kena-bridge-of-spirits.png",
+    "top": false,
+    "topBG": "../assets/images/background.png"
   },
   {
     "id": 8,
     "tag": "new release",
     "title": "Goodbye volcano highs",
+    "subtitle": "League of Legends is a fast-paced, competitive online game that blends the speed and intensity of an RTS with RPG elements.",
     "price": "39,95",
     "image": "../assets/images/godbye-volcano-highs.png",
     "description": "Kratos, que ha dejado atrás el mundo de los dioses, deberá adaptarse a tierras que no le son familiares, afrontar peligros inesperados y aprovechar una segunda oportunidad de ejercer como padre. Junto a su hijo Atreus se aventurará en lo más profundo e inclemente de las tierras de Midgard y luchará por culminar una búsqueda hondamente personal. • Viaja a un mundo oscuro y elemental de temibles criaturas directamente extraído de la mitología nórdica. • Vence a tus enemigos en encarnizados combates cuerpo a cuerpo donde el pensamiento táctico y la precisión letal te darán la ventaja. • Descubre una historia apasionante y emocional en la que Kratos se verá obligado a controlar la ira que tanto lo ha caracterizado.",
     "imgDetailBG": "../assets/images/god-of-war-detailBG.png",
-    "imgDetail": "../assets/images/godbye-volcano-highs.png"
+    "imgDetail": "../assets/images/godbye-volcano-highs.png",
+    "top": false,
+    "topBG": "../assets/images/background.png"
   },
   {
     "id": 9,
     "tag": "new release",
     "title": "GhostWire: Tokyo",
+    "subtitle": "League of Legends is a fast-paced, competitive online game that blends the speed and intensity of an RTS with RPG elements.",
     "price": "49,95",
     "image": "../assets/images/ghostwire-tokio.png",
     "description": "Kratos, que ha dejado atrás el mundo de los dioses, deberá adaptarse a tierras que no le son familiares, afrontar peligros inesperados y aprovechar una segunda oportunidad de ejercer como padre. Junto a su hijo Atreus se aventurará en lo más profundo e inclemente de las tierras de Midgard y luchará por culminar una búsqueda hondamente personal. • Viaja a un mundo oscuro y elemental de temibles criaturas directamente extraído de la mitología nórdica. • Vence a tus enemigos en encarnizados combates cuerpo a cuerpo donde el pensamiento táctico y la precisión letal te darán la ventaja. • Descubre una historia apasionante y emocional en la que Kratos se verá obligado a controlar la ira que tanto lo ha caracterizado.",
     "imgDetailBG": "../assets/images/god-of-war-detailBG.png",
-    "imgDetail": "../assets/images/ghostwire-tokio.png"
+    "imgDetail": "../assets/images/ghostwire-tokio.png",
+    "top": false,
+    "topBG": "../assets/images/background.png"
   },
   {
     "id": 10,
     "tag": "new release",
     "title": "Horizon: Forbidden West",
+    "subtitle": "League of Legends is a fast-paced, competitive online game that blends the speed and intensity of an RTS with RPG elements.",
     "price": "149,95",
     "image": "../assets/images/horizon-forbiddenwest.png",
     "description": "Kratos, que ha dejado atrás el mundo de los dioses, deberá adaptarse a tierras que no le son familiares, afrontar peligros inesperados y aprovechar una segunda oportunidad de ejercer como padre. Junto a su hijo Atreus se aventurará en lo más profundo e inclemente de las tierras de Midgard y luchará por culminar una búsqueda hondamente personal. • Viaja a un mundo oscuro y elemental de temibles criaturas directamente extraído de la mitología nórdica. • Vence a tus enemigos en encarnizados combates cuerpo a cuerpo donde el pensamiento táctico y la precisión letal te darán la ventaja. • Descubre una historia apasionante y emocional en la que Kratos se verá obligado a controlar la ira que tanto lo ha caracterizado.",
     "imgDetailBG": "../assets/images/god-of-war-detailBG.png",
-    "imgDetail": "../assets/images/horizon-forbiddenwest.png"
+    "imgDetail": "../assets/images/horizon-forbiddenwest.png",
+    "top": false,
+    "topBG": "../assets/images/background.png"
   },
   {
     "id": 11,
     "tag": "new release",
     "title": "Bugsnax",
+    "subtitle": "League of Legends is a fast-paced, competitive online game that blends the speed and intensity of an RTS with RPG elements.",
     "price": "189,95",
     "image": "../assets/images/bugsnax.png",
     "description": "Kratos, que ha dejado atrás el mundo de los dioses, deberá adaptarse a tierras que no le son familiares, afrontar peligros inesperados y aprovechar una segunda oportunidad de ejercer como padre. Junto a su hijo Atreus se aventurará en lo más profundo e inclemente de las tierras de Midgard y luchará por culminar una búsqueda hondamente personal. • Viaja a un mundo oscuro y elemental de temibles criaturas directamente extraído de la mitología nórdica. • Vence a tus enemigos en encarnizados combates cuerpo a cuerpo donde el pensamiento táctico y la precisión letal te darán la ventaja. • Descubre una historia apasionante y emocional en la que Kratos se verá obligado a controlar la ira que tanto lo ha caracterizado.",
     "imgDetailBG": "../assets/images/god-of-war-detailBG.png",
-    "imgDetail": "../assets/images/bugsnax.png"
+    "imgDetail": "../assets/images/bugsnax.png",
+    "top": true,
+    "topBG": "../assets/images/background.png"
   },
   {
     "id": 12,
     "tag": "new release",
     "title": "Resident Evil Village",
+    "subtitle": "League of Legends is a fast-paced, competitive online game that blends the speed and intensity of an RTS with RPG elements.",
     "price": "39,95",
     "image": "../assets/images/resident-evil-village.png",
     "description": "Kratos, que ha dejado atrás el mundo de los dioses, deberá adaptarse a tierras que no le son familiares, afrontar peligros inesperados y aprovechar una segunda oportunidad de ejercer como padre. Junto a su hijo Atreus se aventurará en lo más profundo e inclemente de las tierras de Midgard y luchará por culminar una búsqueda hondamente personal. • Viaja a un mundo oscuro y elemental de temibles criaturas directamente extraído de la mitología nórdica. • Vence a tus enemigos en encarnizados combates cuerpo a cuerpo donde el pensamiento táctico y la precisión letal te darán la ventaja. • Descubre una historia apasionante y emocional en la que Kratos se verá obligado a controlar la ira que tanto lo ha caracterizado.",
     "imgDetailBG": "../assets/images/god-of-war-detailBG.png",
-    "imgDetail": "../assets/images/resident-evil-village.png"
+    "imgDetail": "../assets/images/resident-evil-village.png",
+    "top": false,
+    "topBG": "../assets/images/background.png"
   },
   {
     "id": 13,
     "tag": "new release",
     "title": "Deathloop",
+    "subtitle": "League of Legends is a fast-paced, competitive online game that blends the speed and intensity of an RTS with RPG elements.",
     "price": "49,95",
     "image": "../assets/images/deathloop.png",
     "description": "Kratos, que ha dejado atrás el mundo de los dioses, deberá adaptarse a tierras que no le son familiares, afrontar peligros inesperados y aprovechar una segunda oportunidad de ejercer como padre. Junto a su hijo Atreus se aventurará en lo más profundo e inclemente de las tierras de Midgard y luchará por culminar una búsqueda hondamente personal. • Viaja a un mundo oscuro y elemental de temibles criaturas directamente extraído de la mitología nórdica. • Vence a tus enemigos en encarnizados combates cuerpo a cuerpo donde el pensamiento táctico y la precisión letal te darán la ventaja. • Descubre una historia apasionante y emocional en la que Kratos se verá obligado a controlar la ira que tanto lo ha caracterizado.",
     "imgDetailBG": "../assets/images/god-of-war-detailBG.png",
-    "imgDetail": "../assets/images/deathloop.png"
+    "imgDetail": "../assets/images/deathloop.png",
+    "top": false,
+    "topBG": "../assets/images/background.png"
   },
   {
     "id": 14,
     "tag": "new release",
     "title": "Returnal",
+    "subtitle": "League of Legends is a fast-paced, competitive online game that blends the speed and intensity of an RTS with RPG elements.",
     "price": "149,95",
     "image": "../assets/images/returnal.png",
     "description": "Kratos, que ha dejado atrás el mundo de los dioses, deberá adaptarse a tierras que no le son familiares, afrontar peligros inesperados y aprovechar una segunda oportunidad de ejercer como padre. Junto a su hijo Atreus se aventurará en lo más profundo e inclemente de las tierras de Midgard y luchará por culminar una búsqueda hondamente personal. • Viaja a un mundo oscuro y elemental de temibles criaturas directamente extraído de la mitología nórdica. • Vence a tus enemigos en encarnizados combates cuerpo a cuerpo donde el pensamiento táctico y la precisión letal te darán la ventaja. • Descubre una historia apasionante y emocional en la que Kratos se verá obligado a controlar la ira que tanto lo ha caracterizado.",
     "imgDetailBG": "../assets/images/god-of-war-detailBG.png",
-    "imgDetail": "../assets/images/returnal.png"
+    "imgDetail": "../assets/images/returnal.png",
+    "top": false,
+    "topBG": "../assets/images/background.png"
   },
   {
     "id": 15,
     "tag": "new release",
     "title": "Jett: The Far Shore",
+    "subtitle": "League of Legends is a fast-paced, competitive online game that blends the speed and intensity of an RTS with RPG elements.",
     "price": "189,95",
     "image": "../assets/images/jett-the-far-shore.png",
     "description": "Kratos, que ha dejado atrás el mundo de los dioses, deberá adaptarse a tierras que no le son familiares, afrontar peligros inesperados y aprovechar una segunda oportunidad de ejercer como padre. Junto a su hijo Atreus se aventurará en lo más profundo e inclemente de las tierras de Midgard y luchará por culminar una búsqueda hondamente personal. • Viaja a un mundo oscuro y elemental de temibles criaturas directamente extraído de la mitología nórdica. • Vence a tus enemigos en encarnizados combates cuerpo a cuerpo donde el pensamiento táctico y la precisión letal te darán la ventaja. • Descubre una historia apasionante y emocional en la que Kratos se verá obligado a controlar la ira que tanto lo ha caracterizado.",
     "imgDetailBG": "../assets/images/god-of-war-detailBG.png",
-    "imgDetail": "../assets/images/jett-the-far-shore.png"
+    "imgDetail": "../assets/images/jett-the-far-shore.png",
+    "top": false,
+    "topBG": "../assets/images/background.png"
   },
   {
     "id": 16,
     "tag": "new release",
     "title": "God of War: Ragnarok",
+    "subtitle": "League of Legends is a fast-paced, competitive online game that blends the speed and intensity of an RTS with RPG elements.",
     "price": "39,95",
     "image": "../assets/images/god-of-war-ragnarok.png",
     "description": "Kratos, que ha dejado atrás el mundo de los dioses, deberá adaptarse a tierras que no le son familiares, afrontar peligros inesperados y aprovechar una segunda oportunidad de ejercer como padre. Junto a su hijo Atreus se aventurará en lo más profundo e inclemente de las tierras de Midgard y luchará por culminar una búsqueda hondamente personal. • Viaja a un mundo oscuro y elemental de temibles criaturas directamente extraído de la mitología nórdica. • Vence a tus enemigos en encarnizados combates cuerpo a cuerpo donde el pensamiento táctico y la precisión letal te darán la ventaja. • Descubre una historia apasionante y emocional en la que Kratos se verá obligado a controlar la ira que tanto lo ha caracterizado.",

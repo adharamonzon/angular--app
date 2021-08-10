@@ -9,7 +9,8 @@ import { GAMES } from '../data/data-games';
 export class GamesService {
 
   constructor() { }
-  
+  public topGames! : Array<Game>;
+
   getGameById(id:number) : Game | null {
    for (const game of GAMES) {
       if(game.id === id){
@@ -23,10 +24,19 @@ export class GamesService {
   getGames() : Game[]{
     return GAMES;
   }
+
+  getGameByTop() : Game[] {
+    const result: Array<Game> = GAMES.filter((item) => {
+        if (item.top === true){
+          return item
+        } else {
+        return undefined;
+      }
+    })
+
+   return  this.topGames = result
+ 
+  }
 //se guarda en el servicio el array de juegos, para que cualquier archivo de la applicacion pueda acceder a ellos. 
 //ProvidedIn:'root' lo aplica a la raiz del proyecto y por ello se puede acceder desde cualquier punto de la aplicacion.    
 }
-
-// detail.component.ts
-
-// this.game = this.gameService.getGameById(parseInt(this.route.snapshot.params.id))

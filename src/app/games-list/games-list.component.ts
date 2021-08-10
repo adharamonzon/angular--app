@@ -2,7 +2,6 @@ import { Component, OnInit } from '@angular/core';
 
 import { Game } from '../data/game';
 //import { GAMES } from '../data/data-games'; //necesario si no hay servicio
-//servicio: para acceder al data 
 import { GamesService } from '../services/games.service';
 
 @Component({

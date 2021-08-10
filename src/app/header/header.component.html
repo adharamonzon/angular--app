@@ -1,10 +1,16 @@
 <ngb-carousel>
-  <ng-template *ngFor="let game of games" ngbSlide>
-    <div class="picsum-img-wrapper header">
-      <small class="header__title uppercase">Awarded and Recomended</small>
-      <h1>{{game.title}}</h1>
-      <p>{{game.description}}</p>
-      <img src={{game.imgDetailBG}} alt="Random first slide"/>
+  <ng-template *ngFor='let game of topGames' ngbSlide showNavigationArrows='false'>
+    <div class="picsum-img-wrapper header" >
+      <img class="header__image" src={{game.topBG}} alt="Random first slide" showNavigationArrows='false'/>
+      <div class="header__infoContainer">
+        <small class="header__infoContainer--small uppercase">Awarded and Recommended</small>
+        <h1 class="header__infoContainer--title">{{game.title}}</h1>
+        <p class="header__infoContainer--subtitle">{{game.subtitle}}</p>
+        <div class="header__btnContainer">
+          <button class="btnType header__btnContainer--install uppercase">Install Game</button>
+          <button class="header__btnContainer--buy uppercase">Add To Favorites</button>
+        </div>
+      </div>
     </div>
   </ng-template>
 </ngb-carousel>
