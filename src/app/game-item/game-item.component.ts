@@ -1,7 +1,7 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 
 import { Game } from '../data/game';
-import { GetGameService } from '../get-game.service';
+import { GetGameService } from '../services/get-game.service';
 
 @Component({
   selector: 'app-game-item',

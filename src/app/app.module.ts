@@ -7,6 +7,8 @@ import { GamesListComponent } from './games-list/games-list.component';
 import { GameItemComponent } from './game-item/game-item.component';
 import { ButtonComponent } from './button/button.component';
 import { DetailComponent } from './detail/detail.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { HeaderComponent } from './header/header.component';
 
 
 @NgModule({
@@ -15,11 +17,13 @@ import { DetailComponent } from './detail/detail.component';
     GamesListComponent,
     GameItemComponent,
     ButtonComponent,
-    DetailComponent
+    DetailComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]

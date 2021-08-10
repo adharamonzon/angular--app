@@ -4,7 +4,7 @@ import { GAMES } from '../data/data-games';
 //Routing
 import { ActivatedRoute } from '@angular/router';
 import { Location } from '@angular/common';
-import { GetGameService } from '../get-game.service';
+import { GetGameService } from '../services/get-game.service';
 
 @Component({
   selector: 'app-detail',
