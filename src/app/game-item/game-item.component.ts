@@ -9,7 +9,7 @@ import { Game } from '../data/game';
 })
 export class GameItemComponent implements OnInit {
 
-  @Input() game!: (Game); 
+  @Input() game!: (Game); //forma de pasar informacion de padres a hijos
 
   constructor() { }
 

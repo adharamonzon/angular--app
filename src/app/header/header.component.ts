@@ -14,19 +14,15 @@ export class HeaderComponent implements OnInit {
   constructor(
     private gamesService : GamesService,
     private config : NgbCarouselConfig,
-    ) {
+    ){
       config.showNavigationArrows = false
      }
   
   ngOnInit(): void {
     this.getTopGames();
-    console.log(this.topGames);
-    
   }
   getTopGames() : void {
     this.topGames = this.gamesService.getGameByTop()
-    console.log(this.topGames);
-    
   }
 
 }

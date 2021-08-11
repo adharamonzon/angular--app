@@ -1,6 +1,5 @@
 @import '../../assets/variables.scss';
 .main{
-  width: 100%;
   background-color: $backgroundColor;
   padding-bottom: 10px;
   &__title{
@@ -17,8 +16,6 @@
     column-gap: 40px;
     row-gap: 70px;
     padding-bottom: 160px;
-    &--item{
-      list-style-type: none;
-    }
+    list-style: none;
   }
 }

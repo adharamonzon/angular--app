@@ -13,8 +13,7 @@ import { GamesService } from '../services/games.service';
 })
 export class DetailComponent implements OnInit {
 
-  public game?: Game | null;
-  //games = GAMES;
+  public game?: Game | null; //puede devolver nada porque no se haya seleccionado ningun elemento, hay que tipar tambien con null
   
   constructor(
     private route:ActivatedRoute, //usar la ruta para encontrar el id clickado
