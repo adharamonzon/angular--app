@@ -15,8 +15,7 @@ export class HeaderComponent implements OnInit {
     private gamesService : GamesService,
     private config : NgbCarouselConfig,
     ) {
-      config.showNavigationArrows = false,
-      config.showNavigationIndicators = true
+      config.showNavigationArrows = false
      }
   
   ngOnInit(): void {
