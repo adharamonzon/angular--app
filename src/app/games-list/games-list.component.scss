@@ -2,6 +2,7 @@
 .main{
   width: 100%;
   background-color: $backgroundColor;
+  padding-bottom: 10px;
   &__title{
     color: $textTitleColor;
     font-family: $textFamily;

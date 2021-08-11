@@ -13,8 +13,11 @@ export class HeaderComponent implements OnInit {
 
   constructor(
     private gamesService : GamesService,
-    private config:NgbCarouselConfig,
-    ) { }
+    private config : NgbCarouselConfig,
+    ) {
+      config.showNavigationArrows = false,
+      config.showNavigationIndicators = true
+     }
   
   ngOnInit(): void {
     this.getTopGames();
