@@ -26,16 +26,9 @@ export class GamesService {
   }
 
   getGameByTop() : Game[] {
-    const result: Array<Game> = GAMES.filter((item) => {
-        if (item.top === true){
-          return item
-        } else {
-        return undefined;
-      }
+    return GAMES.filter((item) => {
+      return item.top
     })
-
-   return  this.topGames = result
- 
   }
 //se guarda en el servicio el array de juegos, para que cualquier archivo de la applicacion pueda acceder a ellos. 
 //ProvidedIn:'root' lo aplica a la raiz del proyecto y por ello se puede acceder desde cualquier punto de la aplicacion.    

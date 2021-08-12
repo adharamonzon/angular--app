@@ -19,10 +19,6 @@ export class HeaderComponent implements OnInit {
      }
   
   ngOnInit(): void {
-    this.getTopGames();
-  }
-  getTopGames() : void {
     this.topGames = this.gamesService.getGameByTop()
   }
-
 }
