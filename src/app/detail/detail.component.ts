@@ -1,6 +1,5 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit} from '@angular/core';
 import { Game } from '../data/game';
-import { GAMES } from '../data/data-games';
 //Routing
 import { ActivatedRoute } from '@angular/router';
 import { Location } from '@angular/common';
@@ -25,7 +24,7 @@ export class DetailComponent implements OnInit {
    this.game = this.gamesService.getGameById(parseInt(this.route.snapshot.params.id))
   }
     
-  goBack() : void {
+  public goBack() : void {
     this.location.back()
   }
 }
