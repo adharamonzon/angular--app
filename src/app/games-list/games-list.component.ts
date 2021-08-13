@@ -19,6 +19,7 @@ export class GamesListComponent implements OnInit {
     this.getGames() //al llamar la f(x) aqui, se ejecuta despues de que el componete se haya creado. 
   }
   getGames(): void { 
-    this.games = this.gamesService.getGames()
+    this.gamesService.getGames()
+    .subscribe(games => this.games = games)
   }
 }

@@ -1,8 +1,8 @@
 import { Injectable } from '@angular/core';
+import { of, Observable } from 'rxjs';
 
 import { Game } from '../data/game';
 import { GAMES } from '../data/data-games';
-
 @Injectable({
   providedIn: 'root'
 })
@@ -21,8 +21,9 @@ export class GamesService {
    return null;
   } 
 
-  getGames() : Game[]{
-    return GAMES;
+  getGames() : Observable<Game[]>{
+    const games = of(GAMES)
+    return games;
   }
 
   getGameByTop() : Game[] {
