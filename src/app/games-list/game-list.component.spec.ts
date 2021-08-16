@@ -9,7 +9,7 @@ import { Game } from '../data/game';
 
 import { of } from 'rxjs';
 
-const listGames : Game[] = []
+const listGames : Game[] = [{ id: 1, title: '', price: '' }]
 
 const GameServiceMock = {
   getGames: () => of(listGames)
@@ -41,21 +41,21 @@ describe('game-list component', () =>{
   beforeEach(() => {
     fixture = TestBed.createComponent(GamesListComponent);
     component = fixture.componentInstance; //con el fixture traemos el componente que vamos a testear y luego lo instanciamos
-    fixture.detectChanges();/* 
-    let service = fixture.debugElement.injector.get(GamesService);
-    spyOn(service, 'getGames').and.callFake(() => listGames : Game[]); */
+    fixture.detectChanges(); // llamada a ngOnInit()
+    // let service = fixture.debugElement.injector.get(GamesService);
+    // spyOn(service, 'getGames').and.callFake(() => listGames : Game[]);
   })
   it('should create game-list component', () => {
     expect(component).toBeTruthy();
   })
   //vamos a crear un metodo que tome los datos de la SUBSCRIPCION DEL OBSERVABLE
   it('get data from the subscription', () =>{
-    const gameService = fixture.debugElement.injector.get(GamesService); //traemos el servicio
-    const games : Game[] = [];
+    // const gameService = fixture.debugElement.injector.get(GamesService); //traemos el servicio
+    // const games : Game[] = [];
     /*const spy1 = spyOn(gameService, 'getGames').and.returnValue(of(games)) */ //no hace falta si usamos un mock
-    component.getGames();
+    // component.getGames();
     /* expect(spy1).toHaveBeenCalled(); *///no hace falta si usamos un mock 
-    expect(component.games.length).toBe(0);
+    expect(component.games.length).toBe(1);
   });
   
 //vamos a crear un metodo que compruebe que estamos llamando al servicio para recoger los datos

@@ -13,16 +13,9 @@ describe('game-item component', () =>{
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      imports:[
-        RouterTestingModule
-      ],
-      declarations: [
-        GameItemComponent,
-      ],
-      providers: [
-        GamesService,
-        Location
-      ],
+      imports:[],
+      declarations: [],
+      providers: [],
       schemas: [CUSTOM_ELEMENTS_SCHEMA, NO_ERRORS_SCHEMA]
     }).compileComponents();
   })
@@ -30,8 +23,10 @@ describe('game-item component', () =>{
   beforeEach(() => {
     fixture = TestBed.createComponent(GameItemComponent);
     component = fixture.componentInstance; //con el fixture traemos el componente que vamos a testear y luego lo instanciamos
+    component.game = { id: 1, title: '', price: ''}; // input mock
     fixture.detectChanges();
   })
+  
   it('should create game-item component', () => {
     expect(component).toBeTruthy();
   }) 

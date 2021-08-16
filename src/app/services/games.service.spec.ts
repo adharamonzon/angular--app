@@ -251,8 +251,8 @@ describe('GamesService', () => {
   });
 
   it('getGameById will return the id of the game', () =>{
-    let id = service.getGameById(listGames[0].id)
-    expect(id).not.toBeNull();
+    const game = service.getGameById(3);
+    expect(game?.title).toBe('Red Dead Redemption');
   })   
 
   //SE NECESITA HACER UNA PETICION A UNA API

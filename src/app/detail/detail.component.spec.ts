@@ -41,7 +41,7 @@ describe('detail component', () => {
   });
 
   it('should call the function to go back', () => {
-    const spy1 = spyOn(component, 'goBack'); 
+    const spy1 = spyOn(component, 'goBack').and.callThrough(); 
     component.goBack();
     expect(spy1).toHaveBeenCalled();
   })
