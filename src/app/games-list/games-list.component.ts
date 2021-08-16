@@ -18,7 +18,7 @@ export class GamesListComponent implements OnInit {
   ngOnInit(): void {
     this.getGames() //al llamar la f(x) aqui, se ejecuta despues de que el componete se haya creado. 
   }
-  getGames(): void { 
+  public getGames(): void { 
     this.gamesService.getGames()
     .subscribe(games => this.games = games)
   }

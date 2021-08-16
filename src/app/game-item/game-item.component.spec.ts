@@ -32,7 +32,7 @@ describe('game-item component', () =>{
     component = fixture.componentInstance; //con el fixture traemos el componente que vamos a testear y luego lo instanciamos
     fixture.detectChanges();
   })
-  /* it('should create game-item component', () => {
+  it('should create game-item component', () => {
     expect(component).toBeTruthy();
-  }) */
+  }) 
 })

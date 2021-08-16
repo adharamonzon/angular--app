@@ -3,9 +3,11 @@ import { of, Observable } from 'rxjs';
 
 import { Game } from '../data/game';
 import { GAMES } from '../data/data-games';
+
 @Injectable({
   providedIn: 'root'
 })
+
 export class GamesService {
 
   constructor() { }

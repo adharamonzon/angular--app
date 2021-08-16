@@ -33,7 +33,7 @@ describe('detail component', () => {
     component = fixture.componentInstance;
     fixture.detectChanges();
     service = fixture.debugElement.injector.get(GamesService);
-    spyOn(service, 'getGameById').and.callFake(() => null)
+    spyOn(service, 'getGameById').and.callFake(() => null) //oninit
   });
 
   it('should create game-detail component', () => {
